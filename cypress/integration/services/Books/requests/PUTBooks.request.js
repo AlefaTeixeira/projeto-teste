@@ -8,5 +8,4 @@ function changeBook(idBook) {
         body: payloadAddBook
     })
 }
-
 export {allBooks};
