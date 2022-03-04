@@ -1,0 +1,4 @@
+{
+    "baseUrl": "http://fakerestapi.azurewebsite.net/api/",
+    "video": false
+}
