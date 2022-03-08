@@ -11,7 +11,7 @@ describe('DELETE Books', function() {
             })
         })
     });
-    it('Criar e excluir um livr', function() {
+    it('Criar e excluir um livro', function() {
         POSTBooks.addBook().then((resAddBook) => {
             DELETEBooks.deleteBook(resAddBook.body.ID).should((resDeleteBook) => {
                 expect(resDeleteBook.status.to.eq(200))
